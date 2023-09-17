@@ -1,0 +1,9 @@
+inherits = "monokai_aqua"
+
+"keyword.special" = { fg = "light-red" }
+
+"type" = { fg = "type", modifiers=[] }
+
+[palette]
+background = "#1b1e20"
+light-black = "#1b1e20"
