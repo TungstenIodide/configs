@@ -5,5 +5,6 @@ end
 abbr -a hx "helix"
 abbr -a enter "distrobox-enter"
 abbr -a pkg "sudo transactional-update pkg"
+abbr -a exp "export (cat env_file.txt |xargs -L 1)"
 
 fish_ssh_agent
