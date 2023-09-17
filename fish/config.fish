@@ -3,8 +3,12 @@ if status is-interactive
 end
 
 abbr -a hx "helix"
+abbr -a e "helix"
 abbr -a enter "distrobox-enter"
 abbr -a pkg "sudo transactional-update pkg"
 abbr -a exp "export (cat .env |xargs -L 1)"
+abbr -a gcm "git commit -m"
+
+setenv EDITOR helix
 
 fish_ssh_agent
