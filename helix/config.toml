@@ -2,6 +2,7 @@ theme = "monokai_aqua_darker"
 
 [editor]
 line-number = "relative"
+rulers = [81]
 
 [editor.cursor-shape]
 insert = "bar"
