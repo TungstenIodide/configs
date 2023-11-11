@@ -13,4 +13,6 @@ abbr -a gcm "git commit -m"
 
 setenv EDITOR helix
 
+fish_add_path -aP ~/.local/bin
+
 fish_ssh_agent
