@@ -4,6 +4,9 @@ theme = "monokai_aqua_darker"
 line-number = "relative"
 rulers = [81]
 
+[editor.lsp]
+display-inlay-hints = true
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
