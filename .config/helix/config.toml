@@ -3,6 +3,8 @@ theme = "dark_plus"
 [editor]
 line-number = "relative"
 rulers = [81]
+true-color = true # color support over SSH
+
 
 [editor.lsp]
 display-inlay-hints = true
