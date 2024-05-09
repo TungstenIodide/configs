@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+
+  roles:
+    - { role: geerlingguy.dotfiles }
+  
+  vars:
+    dotfiles_repo: "https://github.com/TungstenIodide/configs.git"
+    dotfiles_repo_local_destination: "/home/morbid/Projects/configs"
+    dotfiles_repo_version: "main"
+    dotfiles_files:
+      - ".bashrc"
+      - ".config/fish"
+      - ".config/helix"
+      - ".config/xdg_basedir_fix.env"
