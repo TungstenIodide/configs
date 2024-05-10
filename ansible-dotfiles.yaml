@@ -10,6 +10,7 @@
     dotfiles_repo_version: "main"
     dotfiles_files:
       - ".bashrc"
+      - ".bash_profile"
       - ".config/fish"
       - ".config/helix"
       - ".config/xdg_basedir_fix.env"
