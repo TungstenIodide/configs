@@ -25,3 +25,4 @@ if [[ $- == *i* && -f /usr/bin/fish && $(ps --no-header --pid=$PPID --format=com
 then
 	exec fish
 fi
+. "/home/morbid/.local/share/cargo/env"

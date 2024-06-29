@@ -5,3 +5,4 @@ then
   exec fish # $LOGIN_OPTION
 fi
 
+. "/home/morbid/.local/share/cargo/env"
