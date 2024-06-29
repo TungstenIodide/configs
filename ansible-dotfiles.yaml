@@ -13,4 +13,5 @@
       - ".bash_profile"
       - ".config/fish"
       - ".config/helix/config.toml"
+      - ".config/helix/themes"
       - ".config/xdg_basedir_fix.env"
