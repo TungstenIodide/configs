@@ -1,8 +1,26 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ANSIBLE_CONFIG:/home/morbid/\x2econfig/ansible
+SETUVAR --export ANSIBLE_GALAXY_CACHE_DIR:/home/morbid/\x2ecache/ansible/galaxy_cache
+SETUVAR --export ANSIBLE_HOME:/home/morbid/\x2econfig/ansible
+SETUVAR --export CARGO_HOME:/home/morbid/\x2elocal/share/cargo
+SETUVAR --export GNUPGHOME:/home/morbid/\x2elocal/share/gnupg
+SETUVAR --export GOMODCACHE:/home/morbid/\x2ecache/go/mod
+SETUVAR --export --path GOPATH:/home/morbid/\x2elocal/share/go
+SETUVAR --export GTK2_RC_FILES:/home/morbid/\x2econfig/gtk\x2d2\x2e0/gtkrc\x3a/home/morbid/\x2econfig/gtk\x2d2\x2e0/gtkrc\x2emine
+SETUVAR --export KUBECACHEDIR:/home/morbid/\x2ecache/kube
+SETUVAR --export KUBECONFIG:/home/morbid/\x2econfig/kube
 SETUVAR --export MARONNE:1000
+SETUVAR --export PYTHON_HISTORY:/home/morbid/\x2elocal/state/python/history
+SETUVAR --export RUSTUP_HOME:/home/morbid/\x2elocal/share/rustup
 SETUVAR --export SHELL:/usr/bin/fish
 SETUVAR --export UID:1000
+SETUVAR --export WINEPREFIX:/home/morbid/\x2elocal/share/wineprefixes/default
+SETUVAR --export XDG_CACHE_HOME:/home/morbid/\x2ecache
+SETUVAR --export XDG_CONFIG_HOME:/home/morbid/\x2econfig
+SETUVAR --export XDG_DATA_HOME:/home/morbid/\x2elocal/share
+SETUVAR --export XDG_STATE_HOME:/home/morbid/\x2elocal/state
+SETUVAR --export _JAVA_OPTIONS:\x2dDjava\x2eutil\x2eprefs\x2euserRoot\x3d/home/morbid/\x2econfig/java
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
