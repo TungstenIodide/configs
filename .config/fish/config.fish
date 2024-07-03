@@ -16,3 +16,7 @@ setenv EDITOR hx
 fish_add_path -aP ~/.local/bin
 
 fish_ssh_agent
+
+if type -q starship
+    starship init fish | source
+end
