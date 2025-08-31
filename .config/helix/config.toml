@@ -5,6 +5,8 @@ line-number = "relative"
 rulers = [81]
 true-color = true # color support over SSH
 
+[editor.soft-wrap]
+enable = true
 
 [editor.lsp]
 display-inlay-hints = true
@@ -15,7 +17,7 @@ normal = "block"
 select = "underline"
 
 [editor.file-picker]
-hidden = false
+hidden = true
 git-ignore = false
 
 [keys.normal]
